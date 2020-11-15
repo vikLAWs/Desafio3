@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import {NavigationContainer, StackActions} from '@react-navigation/native'
-import {createDrawerNavigator} from '@react-navigation/drawer'
 import {createStackNavigator} from '@react-navigation/stack'
+import {createDrawerNavigator} from '@react-navigation/drawer'
 import PcDetailsPage from './src/pages/PcDetailsPage';
 import PcPage from './src/pages/PcPage'
 

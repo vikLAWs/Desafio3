@@ -28,9 +28,10 @@ export default class PcPage extends React.Component{
     return(
       <View>
         <PcList pcs={this.state.pcs}
-                    onPressItem={ () => {
-                        this.props.navigation.navigate('Detalhes do PC')
-                    }}
+                onPressItem={ (pc) => {
+                        this.props.navigation.navigate('Detalhes do PC',
+                        {"pc": pc})
+                }}
         />
       </View>
     )

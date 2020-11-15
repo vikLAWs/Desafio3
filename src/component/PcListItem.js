@@ -7,10 +7,10 @@ const PcListItem = props => {
     const {pcnome} = pc.nome
     return(
         <TouchableOpacity onPress={() => {
-            onPressItemDetails()
+            onPressItemDetails(pc)
         }}>
         <View style = {style.line}>
-            <Image style = {style.avatar} source = {{uri: pc.img}} />
+            <Image style = {style.avatar} source = {{uri: pc.imgthumb}} />
             <Text style = {style.lineText} key = {pcnome}>
                 {` ${
                     toUpperFirst(pcnome)
