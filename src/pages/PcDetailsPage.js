@@ -38,14 +38,14 @@ export default class PcDetailsPage extends React.Component{
 const style = StyleSheet.create(
     {
         texttitle: {
-            fontFamily: "Cambria", 
+            fontFamily: "Arial", 
             fontSize: 30, 
             textAlign: "center",
             color: "#2C2932"
         },
 
         text: {
-            fontFamily: "Cambria", 
+            fontFamily: "Arial", 
             fontSize: 22, 
             textAlign: "center",
             color: "#C94747"
